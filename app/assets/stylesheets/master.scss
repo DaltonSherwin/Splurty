@@ -1,4 +1,4 @@
-@import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Blinker&display=swap');
 .clear {
   clear: both;
 }
@@ -33,10 +33,23 @@
   color: black;
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
+  font-family: 'titilliumregular', sans-serif;
+  font-weight: bold;
 }
 header{
   border-top: 9px solid #222222;
 }
 hr{
   clear:both;
+}
+h1 {
+  font-family: 'titilliumregular', sans-serif;
+  font-weight: bold;
+  letter-spacing: -1.5px;
+  font-size: 48px;
+}
+h2 {
+  font-family: 'titilliumregular', sans-serif;
+  font-weight: 600;
+  letter-spacing: -1.5px;
 }
