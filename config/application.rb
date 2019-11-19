@@ -15,5 +15,14 @@ module Splurty
     # Application configuration can go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
+<<<<<<< HEAD
+=======
+      # Add the fonts path
+    config.assets.paths << "#{Rails.root}/app/assets/fonts"
+
+    # Precompile additional assets
+    config.assets.precompile += %w( .svg .eot .woff .ttf )
+
+>>>>>>> 5d8c51d285b9a1c360834e92cd7e1bfa67ce9737
   end
 end
